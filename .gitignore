@@ -1,0 +1,37 @@
+.venv/
+venv/
+env/
+
+__pycache__/
+*.py[cod]
+*$py.class
+
+.ipynb_checkpoints/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+.vscode/
+.idea/
+
+Thumbs.db
+Desktop.ini
+
+# Generated image outputs from example scripts
+01_read_show_write/grayscale.jpg
+01_read_show_write/grayscale1.jpg
+01_read_show_write/color.jpg
+01_read_show_write/unchanged.jpg
+
+03_image_cropping/Cropped Image.jpg
+03_image_cropping/saved_patches/
+
+04_image_rotation/rotated_image.jpg
+
+07_Image_Filtering_Using_Convolution/blur.jpg
+07_Image_Filtering_Using_Convolution/blur_kernel.jpg
+07_Image_Filtering_Using_Convolution/gaussian_blur.jpg
+07_Image_Filtering_Using_Convolution/identity.jpg
+07_Image_Filtering_Using_Convolution/sharp_image.jpg
+07_Image_Filtering_Using_Convolution/median_blur.jpg
+07_Image_Filtering_Using_Convolution/bilateral_filtering.jpg
